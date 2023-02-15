@@ -11,7 +11,7 @@ header('location:login.php');
 <?php
 include('config.php');
 
-$query = "SELECT P.id, P.name, P.date, C.name AS category FROM blog P JOIN category C ON P.category_id = C.id";
+$query = "SELECT P.id, P.name, P.status,  C.name AS category FROM tours P JOIN category C ON P.category_id = C.id";
 $blog = $pdo->prepare($query);
 $blog->execute();
 
@@ -26,7 +26,7 @@ include('includes/header.php');
 <div class="row">
     <div class="col-sm-12">
         <div class="page-title-box">
-            <h4 class="page-title">Lista de Blog</h4>
+            <h4 class="page-title">Lista de Tours</h4>
             <ol class="breadcrumb">
                 
                 
@@ -43,7 +43,7 @@ include('includes/header.php');
             <div class="card m-b-20">
                 <div class="card-body">
 
-                    <a href="crear_blog.php" class="btn btn-brown waves-effect waves-light float-right m-b-10 ">Crear Blog</a>
+                    <a href="crear_tour.php" class="btn btn-brown waves-effect waves-light float-right m-b-10 ">Crear Tour</a>
 
                     <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                         <thead>
@@ -51,7 +51,7 @@ include('includes/header.php');
                             <th>#ID</th>
                             <th>Nombre</th>
                             <th>Category</th>
-                            <th>Date</th>
+                            <th>Status</th>
                             <th>options</th>
                             
                         </tr>
@@ -64,7 +64,7 @@ include('includes/header.php');
                             <td class="text-center"><?php echo $dato['id'] ?></td>
                             <td><?php echo $dato['name'] ?></td>
                             <td><?php echo $dato['category'] ?></td>
-                            <td ><?php echo $dato['date']?></td>
+                            <td ><?php echo $dato['status']?></td>
                             
                             <td class="text-center">
                             <a href="<?php echo "editar_blog.php?id=" .$dato['id'] ?>"><i  class="fas fa-pencil-alt" style="color: violet;"></i></a>

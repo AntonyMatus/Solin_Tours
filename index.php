@@ -1,3 +1,13 @@
+<?php 
+    require 'Admin/config.php';
+
+    $sqlForCategory = "SELECT * FROM category";
+    $queryFilters = $pdo->prepare($sqlForCategory);
+    $queryFilters->execute(); 
+    $categories = $queryFilters->fetchAll(PDO::FETCH_OBJ);
+
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
@@ -238,7 +248,7 @@
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
                                             <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Catamarán Cozumel + Beach club</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explore tours</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +264,7 @@
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
                                             <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Tradicional al cielo lancha</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explore tours</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +280,7 @@
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
                                             <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Clear boat Cozumel</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explore tours</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -288,7 +298,7 @@
                                                 <i class="feather icon-feather-arrow-right text-white"></i>
                                             </a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Chichen Itza Delux</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explore tours</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -304,7 +314,7 @@
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
                                             <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Tulum casa tortuga</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explore tours</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -321,7 +331,7 @@
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
                                             <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Buceo para principiantes</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explore tours</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -352,14 +362,9 @@
                             <!-- start filter navigation -->
                             <ul class="portfolio-filter grid-filter nav nav-tabs justify-content-center border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
                                 <li class="nav active"><a data-filter="*" href="#">Todos</a></li>
-                                <li class="nav"><a data-filter=".branding" href="#">Acuáticas</a></li>
-                                <li class="nav"><a data-filter=".graphics" href="#">Terrestre</a></li>
-                                <li class="nav"><a data-filter=".logos" href="#">Arqueológicos</a></li>
-                                <li class="nav"><a data-filter=".photography" href="#">Ecoturismo</a></li>
-                                <li class="nav"><a data-filter=".photography" href="#">Aventura</a></li>
-                                <li class="nav"><a data-filter=".photography" href="#">City tours</a></li>
-                                <li class="nav"><a data-filter=".photography" href="#">turísticos</a></li>
-                                <li class="nav"><a data-filter=".photography" href="#">Cenotes</a></li>
+                                <?php foreach ($categories as $category) : ?>
+                                    <li class="nav"><a data-filter=".<?php echo $category->slug ?>" href="#"> <?php echo $category->name ?> </a></li>
+                                <?php endforeach ?>
                             </ul>
                             <!-- end filter navigation -->
                         </div>
@@ -1015,7 +1020,7 @@
                     <div class="row align-items-center">
                         
                         <div class="col-12 col-md-12 text-center last-paragraph-no-margin sm-margin-20px-bottom">
-                            <p class="text-white">Solin Tours 2023 &copy; Desarrollado por  <a href="https://www.buho-solutions.com" target="_blank" class="text-white text-tussock text-white-hover font-weight-500">Buho Solutions</a></p>
+                            <p class="text-white"><a href="Admin/index.php" class="mx-2"><i class="fas fa-user text-white"></i></a> Solin Tours 2023 &copy; Desarrollado por  <a href="https://www.buho-solutions.com" target="_blank" class="text-white text-tussock text-white-hover font-weight-500">Buho Solutions</a></p>
                         </div>
                         
                     </div>

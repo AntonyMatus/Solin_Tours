@@ -3,12 +3,12 @@
 <html lang="en">
 
     <head>
-        <title>Fisper - Panel Admin Dashboard</title>
+        <title>Solin Tour - Panel Admin Dashboard</title>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="author" content="Búho Solutions" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-        <meta name="description" content="FISPER es una consultoría de servicios empresariales en la que se abarca un gran espectro de servicios, manejando desde el área administrativa, el área contable, el área fiscal, el área legal, tramitología y todo lo que incluya trámite ante instituciones gubernamentales.">
+        <meta name="description" content="Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad.">
         <link rel="shortcut icon" href="assets/images/favicon-white.svg">
         <link rel="stylesheet" href="plugins/morris/morris.css">
 

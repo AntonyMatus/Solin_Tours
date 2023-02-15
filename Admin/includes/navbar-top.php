@@ -6,7 +6,7 @@
 <div class="topbar-left">
     <a href="index.php" class="logo">
         <span>
-            <img src="assets/images/logo-white.svg" alt="" width="120" height="30">
+            <img src="assets/images/Recurso 4.svg" alt="" width="180" height="100">
         </span>
         <i>
             <img src="assets/images/favicon-white.svg" alt="" height="22">

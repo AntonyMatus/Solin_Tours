@@ -606,7 +606,7 @@ dt {
 
 .submenu li a {
   padding: 8px 20px 8px 10px;
-  color: #8699ad;
+  color: white;
   display: block;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -639,7 +639,7 @@ dt {
 }
 
 .topbar .topbar-left {
-  background: #064142;
+  background: #ED510D;
   float: left;
   text-align: center;
   height: 70px;
@@ -690,7 +690,7 @@ dt {
 .side-menu {
   width: 240px;
   z-index: 10;
-  background: #064142;
+  background: #ED510D;
   bottom: 0;
   margin-top: 0;
   padding-bottom: 30px;
@@ -728,7 +728,7 @@ dt {
 }
 
 #sidebar-menu > ul > li > a {
-  color: #8699ad;
+  color: white;
   display: block;
   padding: 13px 20px;
   font-size: 13.3px;
@@ -770,7 +770,7 @@ dt {
 
 #sidebar-menu > ul > li > a.active {
   color: #ffffff !important;
-  background-color: #064142;
+  background-color: #ED510D;
 }
 
 .menu-title {
@@ -779,7 +779,7 @@ dt {
   font-size: 10px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #b4bfcc;
+  color: white;
 }
 
 .enlarged .slimScrollDiv {

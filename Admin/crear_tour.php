@@ -24,7 +24,7 @@ $result = $sql->fetchAll(PDO::FETCH_OBJ);
 <div class="row">
         <div class="col-sm-12">
             <div class="page-title-box">
-                <h4 class="page-title">Crear Blog</h4>
+                <h4 class="page-title">Crear Tour</h4>
                 <ol class="breadcrumb">
                 </ol>
             </div>
@@ -50,26 +50,7 @@ $result = $sql->fetchAll(PDO::FETCH_OBJ);
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label>Descripcion</label>
-                            <div>
-                                <input type="text"  name="description" class="form-control" required placeholder="Escriba la descripcion"/>
-                            </div>
-                        
-                        </div>
-                    </div>
-                
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Fecha</label>
-                            <div></div>
-                                <input type="date" class="form-control" required  name="date"  placeholder=""/>
-                            </div>
-                        </div>
-                    
-
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Status plublicado</label>
+                            <label>Status disponibilidad</label>
                             <div>
                                 <select name="status" class="form-control">
                                     <option value="">Seleccione el status</option>
@@ -81,6 +62,33 @@ $result = $sql->fetchAll(PDO::FETCH_OBJ);
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
+                            <label>Precio por Adulto</label>
+                            <input type="text" class="form-control"  name="price_adult" required placeholder="Escriba aqui el precio" value="0"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Restricción de edad</label>
+                            <input type="text" class="form-control"  name="rest_year_Adult" required placeholder="Escriba aqui las restricciones"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Precio por Niños</label>
+                            <input type="text" class="form-control"  name="price_child" required placeholder="Escriba aqui el precio" value="0"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Restricción de edad</label>
+                            <input type="text" class="form-control"  name="rest_year_child" required placeholder="Escriba aqui las restricciones"/>
+                        </div>
+                    </div>
+
+                    
+                    
+                    <div class="col-md-6">
+                        <div class="form-group">
                             <label>Categoria</label>
                             <div>
                                 <select name="category_id" class="form-control">
@@ -90,6 +98,12 @@ $result = $sql->fetchAll(PDO::FETCH_OBJ);
                                     <?php endforeach ?>
                                 </select>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Tipo de cambio</label>
+                            <input type="text" class="form-control"  name="dollar_change" required placeholder="Escriba aqui el tipo de cambio"/>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -119,7 +133,7 @@ $result = $sql->fetchAll(PDO::FETCH_OBJ);
                         <button type="submit" name="register-btn" class="btn btn-brown waves-effect waves-light mr-1">
                             Submit
                         </button>
-                        <a  class="btn btn-secondary waves-effect" href="lista_blog.php">
+                        <a  class="btn btn-secondary waves-effect" href="lista_tour.php">
                             Cancel
                         </a>
                     </div>
