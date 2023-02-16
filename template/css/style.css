@@ -519,7 +519,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 ====================================== */
 
 section { padding: 100px 0; overflow: hidden; }
-section.big-section { padding:160px 0; }
+section.big-section { padding:50px 0; }
 section.extra-big-section { padding:200px 0; }
 section.half-section { padding:80px 0; }
 section.half-section2 { padding:0px; }
@@ -4935,4 +4935,8 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
 .gdpr-container .btn { display: inline-block; }
 .justify-items-center {
     justify-items: center;
+}
+
+.mt-5rem {
+    margin-top: 5rem;
 }

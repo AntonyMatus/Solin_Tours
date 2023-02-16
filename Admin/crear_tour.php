@@ -40,7 +40,7 @@ $result = $sql->fetchAll(PDO::FETCH_OBJ);
             <?php include('message.php'); ?>
 
             
-            <form class="" action="create_blog.php" method="POST" enctype="multipart/form-data">
+            <form class="" action="create_tour.php" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">

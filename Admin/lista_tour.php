@@ -93,7 +93,7 @@ include('includes/scripts.php');
 <script>
     function delete_blog(id){
             Swal.fire({
-                title: "Estas seguro de eliminar este video?",
+                title: "Estas seguro de eliminar este tour?",
                 text: "!No podrás revertir esto!!",
                 type: "warning",
                 showCancelButton: true,
@@ -105,10 +105,10 @@ include('includes/scripts.php');
                     
                     if(result.value)
                     {
-                       location.href = 'delete_blog.php?id='+id;
+                       location.href = 'delete_tour.php?id='+id;
                         Swal.fire(
                             'Eliminado!',
-                            'El usuario fue eliminado.',
+                            'El Tour fue eliminado.',
                             'success'
                         )
                     }
