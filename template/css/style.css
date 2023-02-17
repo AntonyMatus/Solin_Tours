@@ -3354,7 +3354,7 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
     21. Grid
 ====================================== */
 
-.blog-post-image img, .portfolio-image img { width: 100%; }
+.blog-post-image img, .portfolio-image img { width: 273px; height: 222px; }
 .grid { list-style: none; }
 .grid-sizer { padding: 0 !important; margin: 0 !important; }
 

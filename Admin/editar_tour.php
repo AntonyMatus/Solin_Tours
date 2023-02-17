@@ -5,10 +5,10 @@ include('config.php');
 if(!isset($_GET['id'])) exit();
 
 $id = $_GET['id'];
-$sql = $pdo->prepare("SELECT * FROM blog WHERE id= ?;");
+$sql = $pdo->prepare("SELECT * FROM tours WHERE id= ?;");
 $sql->execute([$id]);
-$blog = $sql->fetch(PDO::FETCH_OBJ);
-if($blog === FALSE){
+$tour = $sql->fetch(PDO::FETCH_OBJ);
+if($tour === FALSE){
     echo "No existe alguna persna con ese ID";
     exit(0);
 }
@@ -44,47 +44,51 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
             <?php include('message.php'); ?>
 
             
-            <form class="" action="edit_blog.php" method="POST" enctype="multipart/form-data">
+            <form class="" action="edit_tour.php" method="POST" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Nombre</label>
-                            <input type="hidden" name="id" value="<?php echo $blog->id ?>">
-                            <input type="text" class="form-control"  name="name" required placeholder="Escriba el nombre" value="<?php echo $blog->name?>"/>
+                            <input type="hidden" name="id" value="<?php echo $tour->id ?>">
+                            <input type="text" class="form-control"  name="name" required placeholder="Escriba el nombre" value="<?php echo $tour->name?>"/>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label>Descripcion</label>
-                            <div>
-                                <input type="text"  name="description" class="form-control" required placeholder="Escriba la descripcion" value="<?php echo $blog->description?>"/>
-                            </div>
-                        
-                        </div>
-                    </div>
-                
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Fecha</label>
-                            <div></div>
-                                <input type="date" class="form-control" required  name="date"  placeholder="" value="<?php echo $blog->date?>"/>
-                            </div>
-                        </div>
-                    
-
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Status plublicado</label>
+                            <label>Status disponibilidad</label>
                             <div>
                                 <select name="status" class="form-control">
                                     <option value="">Seleccione el status</option>
-                                    <option <?php if($blog->status == 0): ?> selected <?php endif ?> value="0" >SI</option>
-                                    <option <?php if($blog->status == 1): ?> selected <?php endif ?> value="1">NO</option>
+                                    <option <?php if($tour->status == 0): ?> selected <?php endif ?> value="0" >SI</option>
+                                    <option <?php if($tour->status == 1): ?> selected <?php endif ?> value="1">NO</option>
                                 </select>
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Precio por Adulto</label>
+                            <input type="text" class="form-control"  name="price_adult" required placeholder="Escriba aqui el precio" value="<?php echo $tour->price_adult?>"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Restricción de edad</label>
+                            <input type="text" class="form-control"  name="rest_year_Adult" required placeholder="Escriba aqui las restricciones" value="<?php echo $tour->rest_year_adult?> "/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Precio por Niños</label>
+                            <input type="text" class="form-control"  name="price_child" required placeholder="Escriba aqui el precio" value="<?php echo $tour->price_child ?>"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Restricción de edad</label>
+                            <input type="text" class="form-control"  name="rest_year_child" required placeholder="Escriba aqui las restricciones" value="<?php echo $tour->rest_year_child ?> "/>
+                        </div>
+                    </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Categoria</label>
@@ -96,6 +100,12 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                                     <?php endforeach ?>
                                 </select>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Tipo de cambio</label>
+                            <input type="text" class="form-control"  name="dollar_change" required placeholder="Escriba aqui el tipo de cambio" value="<?php echo $tour->dollar_change ?>"/>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -110,7 +120,7 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                         <div class="form-group">
                             <label>Cuerpo</label>
                             <div>
-                                <textarea name="body" id="body" required ><?php echo $blog->body ?></textarea>
+                                <textarea name="body" id="body" required ><?php echo $tour->body ?></textarea>
                             </div>
                         
                         </div>
@@ -123,7 +133,7 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                         <button type="submit" name="edit-btn" class="btn btn-brown waves-effect waves-light mr-1">
                             Submit
                         </button>
-                        <a  class="btn btn-secondary waves-effect" href="lista_blog.php">
+                        <a  class="btn btn-secondary waves-effect" href="lista_tour.php">
                             Cancel
                         </a>
                     </div>
@@ -142,7 +152,7 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                         Imagen de portada
                         </a>
                     </div>
-                    <img loading="lazy" src="assets/images/blogs/<?php echo $blog->img  ?>" />
+                    <img width="300px" loading="lazy" src="assets/images/tours/<?php echo $tour->cover  ?>" />
                     </div>
                 </div>
             </div>
