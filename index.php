@@ -40,7 +40,7 @@
                 <div class="container-fluid nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="template/images/logos/Recurso 4.svg" data-at2x="template/images/logos/Recurso 4.svg" alt="" class="default-logo">
                             <img src="template/images/logos/Recurso 1.svg" data-at2x="template/images/logos/Recurso 1.svg" alt="" class="alt-logo">
                             <img src="template/images/logo-black.png" data-at2x="template/images/logo-black@2x.png" alt="" class="mobile-logo">
@@ -389,12 +389,12 @@
                                             <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                                 <div class="portfolio-icon">
                                                     <a href="Admin/assets/images/tours/<?php  echo $tour->cover ?>" data-group="portfolio-items" class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i class="fas fa-search icon-very-small" aria-hidden="true"></i></a>
-                                                    <a href="single_project.php?id=<?php echo $tour->id ?>" class="text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i class="fas fa-link icon-very-small" aria-hidden="true"></i></a>
+                                                    <a href="single_service.php?id=<?php echo $tour->id ?>" class="text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i class="fas fa-link icon-very-small" aria-hidden="true"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="portfolio-caption h-120px bg-white padding-30px-tb lg-padding-20px-tb">
-                                            <a href="single-project-page-01.html"><span class="alt-font text-extra-dark-gray font-weight-500"><?php echo $tour->name ?></span></a>
+                                            <a href="single_service.php?id=<?php echo $tour->id ?>"><span class="alt-font text-extra-dark-gray font-weight-500"><?php echo $tour->name ?></span></a>
                                             <span class="text-medium d-block margin-one-bottom"><?php echo $tour->category ?></span>
                                         </div>
                                     </div>

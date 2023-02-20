@@ -1,3 +1,7 @@
+
+<?php 
+
+?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
@@ -25,7 +29,7 @@
                 <div class="container-fluid nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.php">
                             <img src="template/images/logos/Recurso 4.svg" data-at2x="template/images/logos/Recurso 4.svg" alt="" class="default-logo">
                             <img src="template/images/logos/Recurso 4.svg" data-at2x="template/images/logos/Recurso 4.svg" alt="" class="alt-logo">
                             <img src="template/images/logo-black.png" data-at2x="template/images/logo-black@2x.png" alt="" class="mobile-logo">

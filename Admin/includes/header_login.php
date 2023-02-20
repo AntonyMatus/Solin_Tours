@@ -7,7 +7,7 @@
         <title>Solin Tour - Login</title>
         <meta content="Buho Solutions" name="author" />
         <meta name="description" content="Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad  ">
-        <link rel="shortcut icon" href="assets/images/favicon-white.svg">
+        <link rel="shortcut icon" href="../assets/images/Recurso 2.svg">
 
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="assets/css/metismenu.min.css" rel="stylesheet" type="text/css">

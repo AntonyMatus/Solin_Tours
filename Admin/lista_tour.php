@@ -64,7 +64,13 @@ include('includes/header.php');
                             <td class="text-center"><?php echo $dato['id'] ?></td>
                             <td><?php echo $dato['name'] ?></td>
                             <td><?php echo $dato['category'] ?></td>
-                            <td ><?php echo $dato['status']?></td>
+                            <td >
+                                <?php if( $dato['status'] === "0"): ?>
+                                    <span class="badge bg-success">Disponible</span>
+                                <?php else: ?>
+                                    <span class="badge bg-danger">No disponible</span>
+                                <?php endif ?>
+                            </td>
                             
                             <td class="text-center">
                             <a href="<?php echo "editar_tour.php?id=" .$dato['id'] ?>"><i  class="fas fa-pencil-alt" style="color: violet;"></i></a>

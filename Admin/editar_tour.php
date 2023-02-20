@@ -68,7 +68,7 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Precio por Adulto</label>
-                            <input type="text" class="form-control"  name="price_adult" required placeholder="Escriba aqui el precio" value="<?php echo $tour->price_adult?>"/>
+                            <input type="number" step="any" class="form-control"  name="price_adult" required placeholder="Escriba aqui el precio" value="<?php echo $tour->price_adult?>"/>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -80,7 +80,7 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Precio por Niños</label>
-                            <input type="text" class="form-control"  name="price_child" required placeholder="Escriba aqui el precio" value="<?php echo $tour->price_child ?>"/>
+                            <input type="number" step="any" class="form-control"  name="price_child" required placeholder="Escriba aqui el precio" value="<?php echo $tour->price_child ?>"/>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -96,7 +96,7 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                                 <select name="category_id" class="form-control">
                                     <option value="">Seleccione la categoria</option>
                                     <?php foreach($result as $dato): ?>
-                                    <option <?php if($dato->id === $blog->category_id): ?> selected <?php endif ?> value="<?php echo $dato->id ?>"><?php echo $dato->name ?></option>
+                                    <option <?php if($dato->id === $tour->category_id): ?> selected <?php endif ?> value="<?php echo $dato->id ?>"><?php echo $dato->name ?></option>
                                     <?php endforeach ?>
                                 </select>
                             </div>
@@ -105,7 +105,7 @@ $result = $sql_2->fetchAll(PDO::FETCH_OBJ);
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Tipo de cambio</label>
-                            <input type="text" class="form-control"  name="dollar_change" required placeholder="Escriba aqui el tipo de cambio" value="<?php echo $tour->dollar_change ?>"/>
+                            <input type="number" step="any" class="form-control"  name="dollar_change" required placeholder="Escriba aqui el tipo de cambio" value="<?php echo $tour->dollar_change ?>"/>
                         </div>
                     </div>
                     <div class="col-md-12">
