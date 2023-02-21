@@ -201,7 +201,7 @@
             </section>
             <!-- end section -->
             <!-- start section -->
-            <section class="bg-light-gray background-position-left-bottom background-no-repeat" >
+            <section id="intro" class="bg-light-gray background-position-left-bottom background-no-repeat" >
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-6 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
@@ -235,7 +235,7 @@
             </section>
             <!-- end section -->
             <!-- start section -->
-            <section class="bg-light-gray">
+            <section id="destinos" class="bg-light-gray">
                 <div class="container">
                     <div class="row margin-6-rem-bottom md-margin-5-rem-bottom align-items-center">
                         <div class="col-12 col-lg-6 col-md-7 text-center text-md-start sm-margin-10px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
@@ -408,7 +408,7 @@
             <!-- end section -->
             
             <!-- start section -->
-            <section class="border-top border-color-medium-gray bg-light-gray">
+            <section id="paquetes" class="border-top border-color-medium-gray bg-light-gray">
                 <div class="container">
                     <div class="row margin-5-half-rem-bottom align-items-center">
                         <div class="col-12 col-lg-6 col-md-7 text-center text-md-start sm-margin-10px-bottom wow animate__fadeIn" data-wow-delay="0.1s">

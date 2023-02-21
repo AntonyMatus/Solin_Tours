@@ -1,11 +1,20 @@
 
 <?php 
+    require 'Admin/config.php';
+
+    $id = intval($_GET['id']);
+
+    $sqlTour = "SELECT P.id, P.name, P.body, P.cover, P.dollar_change, P.price_adult, P.rest_year_adult, P.price_child, P.rest_year_child, F.name AS filter FROM tours P JOIN category F ON P.category_id = F.id WHERE P.id = :id"; 
+    $queryTour = $pdo->prepare($sqlTour);
+    $queryTour->bindParam(':id', $id, PDO::PARAM_INT);
+    $queryTour->execute();
+    $tour = $queryTour->fetch(PDO::FETCH_OBJ);
 
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <title>Servicio Individual – Solin Tours Cozumel</title>
+        <title><?php echo $tour->name ?> – Solin Tours Cozumel</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="author" content="ThemeZaa">
@@ -31,8 +40,8 @@
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.php">
                             <img src="template/images/logos/Recurso 4.svg" data-at2x="template/images/logos/Recurso 4.svg" alt="" class="default-logo">
-                            <img src="template/images/logos/Recurso 4.svg" data-at2x="template/images/logos/Recurso 4.svg" alt="" class="alt-logo">
-                            <img src="template/images/logo-black.png" data-at2x="template/images/logo-black@2x.png" alt="" class="mobile-logo">
+                            <img src="template/images/logos/Recurso 1.svg" data-at2x="template/images/logos/Recurso 1.svg" alt="" class="alt-logo">
+                            <img src="template/images/logos/Recurso 1.svg" data-at2x="template/images/logos/Recurso 1.svg" alt="" class="mobile-logo">
                         </a>
                     </div>
                     <div class="col-auto col-lg-8 menu-order px-lg-0">
@@ -45,25 +54,16 @@
                         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav alt-font">
                                 <li class="nav-item dropdown megamenu">
-                                    <a href="#" class="nav-link">Home</a>
+                                    <a href="index.php#intro" class="nav-link">Introducción</a>
                                 </li>
                                 <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">Pages</a>
+                                    <a href="index.php#destinos" class="nav-link">Destinos</a>
                                 </li>
                                 <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">Portfolio</a>
+                                    <a href="index.php#paquetes" class="nav-link">Paquetes</a>
                                 </li>
                                 <li class="nav-item dropdown megamenu">
-                                    <a href="javascript:void(0);" class="nav-link">Elements</a>
-                                </li>
-                                <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">Features</a>
-                                </li>
-                                <li class="nav-item dropdown simple-dropdown">
-                                    <a href="#" class="nav-link">Blog</a>
-                                </li>
-                                <li class="nav-item dropdown megamenu">
-                                    <a href="javascript:void(0);" class="nav-link">Shop</a>
+                                    <a href="index.php#testimonios" class="nav-link">Testimonios</a>
                                 </li>
                             </ul>
                         </div>
@@ -71,7 +71,7 @@
                     <div class="col-auto col-lg-2 text-end pe-0">
                         <span class="nav-bar-contact text-medium alt-font font-weight-500 d-none d-sm-block">
                             <i class="feather icon-feather-phone-call margin-10px-right"></i>
-                            0222 8899900
+                            +52 1 987 112 1002
                         </span>
                     </div>
                 </div>
@@ -90,40 +90,11 @@
                     </div>
                     <div class="row align-items-center justify-content-center">
                         <div class="d-grid justify-content-center col-12 col-lg-10 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
-                            <img src="template/images/services/catamaran.jpeg" alt="" width="800px" height="600px">
+                            <img src="Admin/assets/images/tours/<?php echo $tour->cover ?>" alt="" width="800px" height="600px">
                         </div>
                         <div class="col-12 col-lg-10 offset-lg-1 mt-5rem">
-                            <h5 class="alt-font font-weight-500 text-extra-dark-gray w-100 margin-25px-bottom letter-spacing-minus-1-half lg-w-90 md-margin-35px-bottom wow animate__fadeInRight" data-wow-delay="0.1s">Catamaran Beach Club</h5>
-                            <p class="margin-5px-bottom">Disfruta de un todo incluído, tour en Catamarán ⛵ con visita al club de playa más popular de la isla. Descubre está increíble experiencia con tu grupo de amigos o con tu familia!☝🏼. </p>
-                            <p class="margin-5px-bottom">Check-in desde 𝗖𝗼𝘇𝘂𝗺𝗲𝗹 cerca del muelle fiscal de la Isla. inicia el recorrido abordo del Catamarán para recorrer:</p>
-                            <ul class="list-style-06">
-                                <li class="margin-20px-bottom last-paragraph-no-margin md-margin-25px-bottom wow animate__fadeInRight" data-wow-delay="0.2s">
-                                    <div><span class="w-25px h-25px text-center bg-black rounded-circle text-white margin-25px-right margin-5px-top d-flex flex-column"><i class="fas fa-check"></i></span></div>
-                                    <div><span class="text-extra-medium text-extra-dark-gray  margin-5px-bottom d-block">El lado sur con actividades de <strong>𝗦𝗻𝗼𝗿𝗸𝗲𝗹</strong> en uno de los grandes arrecifes de Cozumel</span>                                        
-                                    </div>
-                                </li>
-                                <li class="margin-20px-bottom last-paragraph-no-margin md-margin-25px-bottom wow animate__fadeInRight" data-wow-delay="0.3s">
-                                    <div><span class="w-25px h-25px text-center bg-black rounded-circle text-white margin-25px-right margin-5px-top d-flex flex-column"><i class="fas fa-check"></i></span></div>
-                                    <div><span class="text-extra-medium text-extra-dark-gray  margin-5px-bottom d-block"> El arrecife <strong>𝗖𝗼𝗹𝗼𝗺𝗯𝗶𝗮</strong>.</span>
-                                    </div>
-                                </li>
-                                <li class="margin-20px-bottom last-paragraph-no-margin md-margin-25px-bottom wow animate__fadeInRight" data-wow-delay="0.3s">
-                                    <div><span class="w-25px h-25px text-center bg-black rounded-circle text-white margin-25px-right margin-5px-top d-flex flex-column"><i class="fas fa-check"></i></span></div>
-                                    <div><span class="text-extra-medium text-extra-dark-gray  margin-5px-bottom d-block"> El famoso Santuario llamado el <strong>𝗖𝗶𝗲𝗹𝗼</strong>.</span>
-                                    </div>
-                                </li>
-                                <li class="margin-20px-bottom last-paragraph-no-margin md-margin-25px-bottom wow animate__fadeInRight" data-wow-delay="0.3s">
-                                    <div><span class="w-25px h-25px text-center bg-black rounded-circle text-white margin-25px-right margin-5px-top d-flex flex-column"><i class="fas fa-check"></i></span></div>
-                                    <div><span class="text-extra-medium text-extra-dark-gray  margin-5px-bottom d-block"> El arenal <strong>𝗖𝗶𝗲𝗹𝗶𝘁𝗼</strong> para tomarnos increíbles fotos con ese bello paisaje.</span>
-                                    </div>
-                                </li>
-                                <li class="margin-20px-bottom last-paragraph-no-margin md-margin-25px-bottom wow animate__fadeInRight" data-wow-delay="0.3s">
-                                    <div><span class="w-25px h-25px text-center bg-black rounded-circle text-white margin-25px-right margin-5px-top d-flex flex-column"><i class="fas fa-check"></i></span></div>
-                                    <div><span class="text-extra-medium text-extra-dark-gray  margin-5px-bottom d-block"> Visita el Beach club <strong>𝗣𝗹𝗮𝘆𝗮 𝗠𝗶́𝗮</strong> más popular de la isla.</span>
-                                    </div>
-                                </li>
-                            </ul>
-                            
+                            <h5 class="alt-font font-weight-500 text-extra-dark-gray w-100 margin-25px-bottom letter-spacing-minus-1-half lg-w-90 md-margin-35px-bottom wow animate__fadeInRight" data-wow-delay="0.1s"><?php echo $tour->name ?></h5>
+                            <?php echo $tour->body ?>
                         </div>
                     </div>
                 </div>
@@ -134,26 +105,26 @@
                     <div class="row justify-content-center">
                         <div class="col-md-12 text-center margin-four-bottom">
                             <h6 class="alt-font text-extra-dark-gray font-weight-500">Lista de Precios</h6>
-                            <span>Tipo de Cambio $17.00 MXN</span>
+                            <span>Tipo de Cambio <?php echo $tour->dollar_change ?> MXN</span>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-12 col-xl-8 col-lg-8 col-md-8">
                             <ul class="list-style-08">
                                 <li class="border-bottom border-color-black-transparent">
-                                    <div class="w-90 lg-w-85 xs-w-80 last-paragraph-no-margin">
+                                    <div class="w-80 lg-w-75 xs-w-80 last-paragraph-no-margin">
                                         <span class="font-weight-500 text-extra-medium text-extra-dark-gray">Adultos</span>
-                                        <p>Apartir de los 11 años en adelante</p>
+                                        <p><?php echo $tour->rest_year_adult ?></p>
                                     </div>
-                                    <div class="font-weight-500 text-extra-medium text-extra-dark-gray">$1200.00 MXN</div>
+                                    <div class="font-weight-500 text-extra-medium text-extra-dark-gray">$<?php echo $tour->price_adult ?> MXN</div>
                                     
                                 </li>
                                 <li class="border-bottom border-color-black-transparent">
-                                    <div class="w-90 lg-w-85 xs-w-80 last-paragraph-no-margin">
+                                    <div class="w-80 lg-w-75 xs-w-80 last-paragraph-no-margin">
                                         <span class="font-weight-500 text-extra-medium text-extra-dark-gray">Menores </span>
-                                        <p>Menores entre 4 a 11 años</p>
+                                        <p><?php echo $tour->rest_year_child ?></p>
                                     </div>
-                                    <div class="font-weight-500 text-extra-medium text-extra-dark-gray">$1000.00 MXN</div>
+                                    <div class="font-weight-500 text-extra-medium text-extra-dark-gray">$<?php echo $tour->price_child ?> MXN</div>
                                 </li>
                                 
                             </ul>
