@@ -1,4 +1,4 @@
-<?php 
+<!-- <?php 
     require 'Admin/config.php';
 
     $sqlForCategory = "SELECT * FROM category";
@@ -11,7 +11,7 @@
     $queryTours->execute(); 
     $tours = $queryTours->fetchAll(PDO::FETCH_OBJ);
 
-?>
+?> -->
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -367,9 +367,12 @@
                             <!-- start filter navigation -->
                             <ul class="portfolio-filter grid-filter nav nav-tabs justify-content-center border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
                                 <li class="nav active"><a data-filter="*" href="#">Todos</a></li>
-                                <?php foreach ($categories as $category) : ?>
+                                <li class="nav "><a data-filter="*" href="#">Acuatica</a></li>
+                                <li class="nav "><a data-filter="*" href="#">Terrestre</a></li>
+                                <li class="nav "><a data-filter="*" href="#">Cultural</a></li>
+                                <!-- <?php foreach ($categories as $category) : ?>
                                     <li class="nav"><a data-filter=".<?php echo $category->slug ?>" href="#"> <?php echo $category->name ?> </a></li>
-                                <?php endforeach ?>
+                                <?php endforeach ?> -->
                             </ul>
                             <!-- end filter navigation -->
                         </div>
@@ -381,11 +384,11 @@
                             <ul class="portfolio-classic portfolio-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
                                 <li class="grid-sizer"></li>
                                 <!-- start portfolio item -->
-                                <?php foreach ($tours as $tour): ?>
+                                <!-- <?php foreach ($tours as $tour): ?> -->
                                     <li class="grid-item <?php echo $tour->slug_category ?> wow animate__fadeIn">
                                     <div class="portfolio-box border-radius-6px box-shadow-large">
                                         <div class="portfolio-image bg-gradient-magenta-orange">
-                                            <img src="Admin/assets/images/tours/<?php  echo $tour->cover ?>" alt="<?php echo $tour->name ?>" width="277px" height="222px" />
+                                            <img src="https://via.placeholder.com/277x222" alt="<?php echo $tour->name ?>" width="277px" height="222px" />
                                             <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                                 <div class="portfolio-icon">
                                                     <a href="Admin/assets/images/tours/<?php  echo $tour->cover ?>" data-group="portfolio-items" class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i class="fas fa-search icon-very-small" aria-hidden="true"></i></a>
@@ -394,12 +397,12 @@
                                             </div>
                                         </div>
                                         <div class="portfolio-caption h-120px bg-white padding-30px-tb lg-padding-20px-tb">
-                                            <a href="single_service.php?id=<?php echo $tour->id ?>"><span class="alt-font text-extra-dark-gray font-weight-500"><?php echo $tour->name ?></span></a>
-                                            <span class="text-medium d-block margin-one-bottom"><?php echo $tour->category ?></span>
+                                            <a href="single_service.php?id=<?php echo $tour->id ?>"><span class="alt-font text-extra-dark-gray font-weight-500"> Nombre</span></a>
+                                            <span class="text-medium d-block margin-one-bottom"> Categoria</span>
                                         </div>
                                     </div>
                                 </li>
-                                <?php endforeach ?>
+                                <!-- <?php endforeach ?> -->
                             </ul>
                         </div>
                     </div>

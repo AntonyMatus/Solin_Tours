@@ -75,7 +75,7 @@ include('includes/header.php');
                             <td class="text-center">
                             <a href="<?php echo "editar_tour.php?id=" .$dato['id'] ?>"><i  class="fas fa-pencil-alt" style="color: violet;"></i></a>
                                      &nbsp; &nbsp;&nbsp;&nbsp;
-                            <a onclick="delete_blog(<?php echo $dato['id'] ?>)"><i class="fas fa-trash-alt" style="color: #ec536c;"></i></a>  
+                            <a onclick="delete_tour(<?php echo $dato['id'] ?>)"><i class="fas fa-trash-alt" style="color: #ec536c;"></i></a>  
                                 
 
                             </td>
@@ -97,7 +97,7 @@ include('includes/scripts.php');
 ?>
 
 <script>
-    function delete_blog(id){
+    function delete_tour(id){
             Swal.fire({
                 title: "Estas seguro de eliminar este tour?",
                 text: "!No podrás revertir esto!!",
