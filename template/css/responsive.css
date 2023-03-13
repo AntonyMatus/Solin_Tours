@@ -3138,7 +3138,7 @@
 
     /* typography */
     p { margin: 0 0 20px; }
-
+    .swiper-slide{height: auto;}
     /* text size */
     .text-large { font-size:16px; line-height:22px; }
     .text-extra-large { font-size: 18px; line-height:26px; }
@@ -7971,7 +7971,7 @@
     .home-photography .zeus .tp-bullet { height: 8px; width: 8px; border: 1px solid #fff; opacity: 0.5; }
     .home-photography .zeus .tp-bullet.selected { opacity: 1; }
     .home-photography .tp-bullet-image,.home-photography .tp-bullet-title,.home-photography .tp-bullet-imageoverlay { display: none !important; }
-
+    .swiper-slide { height: auto;}
     /* startup*/
     .home-startup .rs-btn div { height: 30px !important; width: 30px !important; }
     .home-startup .tp-bullet.selected { opacity: 1; }

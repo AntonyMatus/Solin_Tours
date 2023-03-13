@@ -9,7 +9,7 @@
         <meta name="author" content="Búho Solutions" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
         <meta name="description" content="Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad.">
-        <link rel="shortcut icon" href="assets/images/favicon-white.svg">
+        <link rel="shortcut icon" href="">
         <link rel="stylesheet" href="plugins/morris/morris.css">
 
          <!-- DataTables -->

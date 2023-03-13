@@ -1132,6 +1132,7 @@ input.btn:focus { border-width: 2px; }
 .margin-twenty-five-top { margin-top:20%; }
 .margin-5px-top { margin-top:5px; }
 .margin-10px-top { margin-top:10px; }
+.margin--10px-top { margin-top:-10px; }
 .margin-15px-top { margin-top:15px; }
 .margin-20px-top { margin-top:20px; }
 .margin-25px-top { margin-top:25px; }
@@ -2283,6 +2284,7 @@ input.btn:focus { border-width: 2px; }
 .h-580px { height: 580px; }
 .h-600px { height: 600px; }
 .h-650px { height: 650px; }
+.h-664-66px{ height: 664.66 px}
 .h-700px { height: 700px; }
 .h-720px { height: 720px; }
 .h-750px { height: 750px; }
@@ -4158,7 +4160,7 @@ aside .instafeed-grid.gutter-double-extra-large { margin-left: -20px; margin-rig
 .feature-box-left-icon { flex-flow: row wrap; -webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; -webkit-box-align: stretch!important; -ms-flex-align: stretch!important; align-items: stretch!important; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; text-align: left; }
 .feature-box-left-icon .feature-box-content { overflow: hidden; flex: 1; }
 .feature-box-left-icon-middle { flex-flow: row wrap; -webkit-flex-flow: row wrap; -ms-flex-flow: row wrap; -webkit-box-align: center !important; -ms-flex-align: center !important; align-items: center !important; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: center; text-align: center; height: 100%; }
-.feature-box-left-icon-middle .feature-box-content { overflow: hidden; -webkit-box-flex: 1; flex: 1; }
+.feature-box-left-icon-middle .feature-box-content { overflow: hidden; -webkit-box-flex: 1; flex: 1;  display: grid; justify-items: start;}
 .feature-box.text-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
 .feature-box.text-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 .feature-box.feature-box-shadow:hover, .feature-box .feature-box-shadow:hover  { border-color: transparent !important; -moz-transform: translate3d(0, -3px, 0); -o-transform: translate3d(0, -3px, 0); -ms-transform: translate3d(0, -3px, 0); -webkit-transform: translate3d(0, -3px, 0); transform: translate3d(0, -3px, 0); }
