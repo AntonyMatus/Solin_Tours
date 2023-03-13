@@ -135,7 +135,7 @@
             
             
             <!-- end section -->
-            <section class="cover-background overlap-height" style="background-image:url('https://via.placeholder.com/1920x600');">
+            <section class="cover-background overlap-height" style="background-image:url('template/images/vacaciones.jpeg');">
                 <div class="opacity-extra-medium bg-dark-slate-blue"></div>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -143,7 +143,7 @@
                             <span class="line-icon-Summer icon-extra-large text-white margin-30px-bottom"></span>
                             <h4 class="alt-font font-weight-500 text-white letter-spacing-minus-1px margin-35px-bottom xs-margin-25px-bottom">Reserva haciendo click abajo</h4>
                             <i class="line-icon-Triangle-ArrowDown icon-medium align-middle text-white margin-35px-bottom"></i> <br>
-                            <a href="#" class="btn btn-large btn-transparent-dark-gray d-table d-lg-inline-block lg-margin-15px-bottom md-margin-auto-lr "><i class="fab fa-whatsapp text-white"></i> Whatsapp</a>
+                            <a href="#" class="btn btn-large btn-white d-table d-lg-inline-block lg-margin-15px-bottom md-margin-auto-lr "><i class="fab fa-whatsapp text-dark"></i> Whatsapp</a>
                         </div>
                     </div>
                 </div>
@@ -157,9 +157,11 @@
                 <div class="container">
                     <div class="row">
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-5 col-sm-6 order-sm-1 order-lg-0 last-paragraph-no-margin md-margin-40px-bottom xs-margin-25px-bottom">
-                            <img src="template/images/logos/Recurso 3.svg" alt="logo" width="219px" class="margin-30px-bottom"> 
-                            <p class="alt-font text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis aliquid ea incidunt placeat. Commodi velit tempora, nihil similique dolorem molestiae dolorum repellat modi dolor deleniti qui atque et assumenda? Aspernatur.</p>
+                        <div class="col-12 col-lg-5 col-sm-6 order-sm-1 order-lg-0 last-paragraph-no-margin md-margin-40px-bottom xs-margin-25px-bottom d-grid justify-items-center">
+                            <img src="template/images/logos/Recurso 3.svg" alt="logo" width="150px"  height="150px" class="margin-30px-bottom"> 
+                            <p class="alt-font text-white">
+                                Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad.
+                            </p>
                         </div>
                         <!-- end footer column -->
                         <!-- start footer column -->
@@ -171,11 +173,11 @@
                         </div>
                         <!-- end footer column -->                    
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-4 offset-xl-1 col-lg-4 col-sm-6 order-sm-3 order-lg-0">                       
-                            <span id="info" class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Informacion de contacto</span>
+                        <div class="col-12 col-lg-4 offset-xl-1 col-lg-4 col-sm-6 order-sm-3 order-lg-0 margin-50px-top">                       
+                            <h4 id="info" class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom font-size-2rem">Información de contacto</h3>
                             
                             <p class="text-white" id="tel"><strong>Phone: 9871121002 </strong> </p>
-                            <p class="text-white" id="email"><strong>Email: </strong> </p>
+                            <p class="text-white" id="email"><strong>Email: Solintourscozumel@gmail.com </strong> </p>
                             <p class="text-white" id="direc"><strong>Address: Cozumel Q.Roo </strong> </p>
                             <div class="social-icon-style-12">
                                 <ul class="extra-small-icon light">
@@ -195,7 +197,7 @@
                     <div class="row align-items-center">
                         
                         <div class="col-12 col-md-12 text-center last-paragraph-no-margin sm-margin-20px-bottom">
-                            <p class="text-white">Solin Tours 2023 &copy; Desarrollado por  <a href="https://www.buho-solutions.com" target="_blank" class="text-white text-tussock text-white-hover font-weight-500">Buho Solutions</a></p>
+                            <p class="text-white"><a href="Admin/index.php" class="mx-2"><i class="fas fa-user text-white"></i></a> Solin Tours 2023 &copy; Desarrollado por  <a href="https://www.buho-solutions.com" target="_blank" class="text-white text-tussock text-white-hover font-weight-500">Buho Solutions</a></p>
                         </div>
                         
                     </div>

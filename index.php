@@ -247,13 +247,13 @@
                         <!-- start interactive banner item -->
                         <div class="col interactive-banners-style-01 margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
                             <div class="interactive-banners-image border-radius-6px bg-dark-slate-blue">
-                                <img src="Admin/assets/images/mejores_destinos/CatamaranCozumel.jpg" class="scale" alt="" />
+                                <img src="Admin/assets/images/mejores_destinos/catamaran.jpg" class="scale" alt="" />
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=2" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Catamarán Cozumel + Beach club</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=2" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -267,9 +267,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=3" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Tradicional al cielo lancha</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=3" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -283,9 +283,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Clear boat Cozumel</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -299,11 +299,11 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="" class="rounded-icon bg-neon-orange interactive-banners-icon">
+                                            <a href="single_service.php?id=10" class="rounded-icon bg-neon-orange interactive-banners-icon">
                                                 <i class="feather icon-feather-arrow-right text-white"></i>
                                             </a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Chichen Itza Delux</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=10" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -317,9 +317,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=7" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Tulum casa tortuga</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=7" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -334,9 +334,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="#" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=6" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Buceo para principiantes</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="#" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=6" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -367,12 +367,9 @@
                             <!-- start filter navigation -->
                             <ul class="portfolio-filter grid-filter nav nav-tabs justify-content-center border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
                                 <li class="nav active"><a data-filter="*" href="#">Todos</a></li>
-                                <li class="nav "><a data-filter="*" href="#">Acuatica</a></li>
-                                <li class="nav "><a data-filter="*" href="#">Terrestre</a></li>
-                                <li class="nav "><a data-filter="*" href="#">Cultural</a></li>
-                                <!-- <?php foreach ($categories as $category) : ?>
+                                <?php foreach ($categories as $category) : ?>
                                     <li class="nav"><a data-filter=".<?php echo $category->slug ?>" href="#"> <?php echo $category->name ?> </a></li>
-                                <?php endforeach ?> -->
+                                <?php endforeach ?>
                             </ul>
                             <!-- end filter navigation -->
                         </div>
@@ -384,11 +381,11 @@
                             <ul class="portfolio-classic portfolio-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large text-center">
                                 <li class="grid-sizer"></li>
                                 <!-- start portfolio item -->
-                                <!-- <?php foreach ($tours as $tour): ?> -->
+                                <?php foreach ($tours as $tour): ?>
                                     <li class="grid-item <?php echo $tour->slug_category ?> wow animate__fadeIn">
                                     <div class="portfolio-box border-radius-6px box-shadow-large">
                                         <div class="portfolio-image bg-gradient-magenta-orange">
-                                            <img src="https://via.placeholder.com/277x222" alt="<?php echo $tour->name ?>" width="277px" height="222px" />
+                                            <img src="Admin/assets/images/tours/<?php  echo $tour->cover ?>" alt="<?php echo $tour->name ?>" width="277px" height="222px" />
                                             <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                                 <div class="portfolio-icon">
                                                     <a href="Admin/assets/images/tours/<?php  echo $tour->cover ?>" data-group="portfolio-items" class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i class="fas fa-search icon-very-small" aria-hidden="true"></i></a>
@@ -397,12 +394,12 @@
                                             </div>
                                         </div>
                                         <div class="portfolio-caption h-120px bg-white padding-30px-tb lg-padding-20px-tb">
-                                            <a href="single_service.php?id=<?php echo $tour->id ?>"><span class="alt-font text-extra-dark-gray font-weight-500"> Nombre</span></a>
-                                            <span class="text-medium d-block margin-one-bottom"> Categoria</span>
+                                            <a href="single_service.php?id=<?php echo $tour->id ?>"><span class="alt-font text-extra-dark-gray font-weight-500"> <?php echo $tour->name ?></span></a>
+                                            <span class="text-medium d-block margin-one-bottom"> <?php echo $tour->category ?> </span>
                                         </div>
                                     </div>
                                 </li>
-                                <!-- <?php endforeach ?> -->
+                                <?php endforeach ?>
                             </ul>
                         </div>
                     </div>
@@ -483,7 +480,7 @@
                                         <div class="swiper-slide text-center">
                                             <div class="feature-box feature-box-left-icon-middle padding-3-rem-tb padding-3-half-rem-lr bg-white box-shadow-small border-radius-6px last-paragraph-no-margin lg-padding-2-half-rem-all">
                                                 <div class="feature-box-icon margin-25px-right">
-                                                    <img class="rounded-circle w-65px h-65px" src="https://via.placeholder.com/125x125" alt="Herman Miller"/>
+                                                    <img class="rounded-circle w-65px h-65px" src="template/images/logos/testimonios.jpg" alt="Herman Miller"/>
                                                 </div>
                                                 <div class="feature-box-content">
                                                     <div class="margin-15px-bottom text-very-small text-golden-yellow">
@@ -508,7 +505,7 @@
                                         <div class="swiper-slide text-center">
                                             <div class="feature-box feature-box-left-icon-middle padding-3-rem-tb padding-3-half-rem-lr bg-white box-shadow-small border-radius-6px last-paragraph-no-margin lg-padding-2-half-rem-all">
                                                 <div class="feature-box-icon margin-20px-right">
-                                                    <img class="rounded-circle w-65px h-65px" src="https://via.placeholder.com/125x125" alt="Jeremy Girard"/>
+                                                    <img class="rounded-circle w-65px h-65px" src="template/images/logos/testimonios.jpg" alt="Jeremy Girard"/>
                                                 </div>
                                                 <div class="feature-box-content">
                                                     <div class="margin-15px-bottom text-very-small text-golden-yellow">
@@ -531,7 +528,7 @@
                                         <div class="swiper-slide text-center">
                                             <div class="feature-box feature-box-left-icon-middle padding-3-rem-tb padding-3-half-rem-lr bg-white box-shadow-small border-radius-6px last-paragraph-no-margin lg-padding-2-half-rem-all">
                                                 <div class="feature-box-icon margin-20px-right">
-                                                    <img class="rounded-circle w-65px h-65px" src="https://via.placeholder.com/125x125" alt="Jeremy Girard"/>
+                                                    <img class="rounded-circle w-65px h-65px" src="template/images/logos/testimonios.jpg" alt="Jeremy Girard"/>
                                                 </div>
                                                 <div class="feature-box-content">
                                                     <div class="margin-15px-bottom text-very-small text-golden-yellow">
@@ -554,7 +551,7 @@
                                         <div class="swiper-slide text-center">
                                             <div class="feature-box feature-box-left-icon-middle padding-3-rem-tb padding-3-half-rem-lr bg-white box-shadow-small border-radius-6px last-paragraph-no-margin lg-padding-2-half-rem-all">
                                                 <div class="feature-box-icon margin-20px-right">
-                                                    <img class="rounded-circle w-65px h-65px" src="https://via.placeholder.com/125x125" alt="Jeremy Girard"/>
+                                                    <img class="rounded-circle w-65px h-65px" src="template/images/logos/testimonios.jpg" alt="Jeremy Girard"/>
                                                 </div>
                                                 <div class="feature-box-content">
                                                     <div class="margin-15px-bottom text-very-small text-golden-yellow">

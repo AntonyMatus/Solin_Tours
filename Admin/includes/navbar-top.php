@@ -9,7 +9,7 @@
             <img src="assets/images/Recurso 4.svg" alt="" width="180" height="100">
         </span>
         <i>
-            <img src="assets/images/favicon-white.svg" alt="" height="22">
+            <img src="../../template/images/logos/Recurso 2.svg" alt="" height="22">
         </i>
     </a>
 </div>
