@@ -283,9 +283,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="single_service.php?id=" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=11" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Clear boat Cozumel</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=11" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
