@@ -143,7 +143,7 @@
                             <span class="line-icon-Summer icon-extra-large text-white margin-30px-bottom"></span>
                             <h4 class="alt-font font-weight-500 text-white letter-spacing-minus-1px margin-35px-bottom xs-margin-25px-bottom">Reserva haciendo click abajo</h4>
                             <i class="line-icon-Triangle-ArrowDown icon-medium align-middle text-white margin-35px-bottom"></i> <br>
-                            <a href="#" class="btn btn-large btn-white d-table d-lg-inline-block lg-margin-15px-bottom md-margin-auto-lr "><i class="fab fa-whatsapp text-dark"></i> Whatsapp</a>
+                            <a href="https://wa.link/7mr6wg" class="btn btn-large btn-white d-table d-lg-inline-block lg-margin-15px-bottom md-margin-auto-lr "><i class="fab fa-whatsapp text-dark"></i> Whatsapp</a>
                         </div>
                     </div>
                 </div>

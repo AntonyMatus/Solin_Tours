@@ -1,4 +1,4 @@
-<!-- <?php 
+<?php 
     require 'Admin/config.php';
 
     $sqlForCategory = "SELECT * FROM category";
@@ -6,12 +6,14 @@
     $queryFilters->execute(); 
     $categories = $queryFilters->fetchAll(PDO::FETCH_OBJ);
 
-    $sqlFortours = "SELECT P.id, P.name, P.cover, F.name AS category, F.slug AS slug_category FROM tours P JOIN category F ON P.category_id = F.id ORDER BY `id` DESC";
+    $sqlFortours = "SELECT P.id, P.name, P.cover, F.name AS category, F.slug AS slug_category FROM tours P JOIN category F ON P.category_id = F.id WHERE status = 0 ORDER BY `id` DESC  ";
     $queryTours = $pdo->prepare($sqlFortours);
     $queryTours->execute(); 
     $tours = $queryTours->fetchAll(PDO::FETCH_OBJ);
 
-?> -->
+    
+
+?> 
 
 <!doctype html>
 <html class="no-js" lang="en">
@@ -423,7 +425,7 @@
                                 <div class="swiper-wrapper">
                                     <!-- start info banner slider item -->
                                     <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover h-664-66px">
-                                        <a href="#"><img class="w-100" src="template/images/paquetes/beachclub.jpg" alt="" /></a>
+                                        <a href="single_service.php?id=9"><img class="w-100" src="template/images/paquetes/beachclub.jpg" alt="" /></a>
                                         <div class="position-relative bg-white padding-3-rem-all md-padding-4-rem-lr body-car">
                                             <!-- <div class="bg-client3 text-small font-weight-500 alt-font text-white text-uppercase position-absolute top-minus-15px right-0px padding-5px-tb padding-20px-lr"></div> -->
                                             <span class="text-medium text-uppercase d-block margin-5px-bottom">Catamarán + beach club Playa Mía</span>
@@ -433,7 +435,7 @@
                                     <!-- end info banner slider item -->
                                     <!-- start info banner slider item -->
                                     <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover h-664-66px">
-                                        <a href="#"><img class="w-100" src="template/images/paquetes/catamaranfurybeach.jpg" alt="" /></a>
+                                        <a href="single_service.php?id=8"><img class="w-100" src="template/images/paquetes/catamaranfurybeach.jpg" alt="" /></a>
                                         <div class="position-relative bg-white padding-3-rem-all md-padding-4-rem-lr body-car">
                                             <!-- <div class="bg-client3 text-small font-weight-500 alt-font text-white text-uppercase position-absolute top-minus-15px right-0px padding-5px-tb padding-20px-lr"></div> -->
                                             <span class="text-medium text-uppercase d-block margin-5px-bottom">Catamarán + Fury beach</span>
