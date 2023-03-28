@@ -10,6 +10,10 @@
     $queryTour->execute();
     $tour = $queryTour->fetch(PDO::FETCH_OBJ);
 
+    if(!$tour){
+        header('Location: index.php');
+    }
+
 ?> -->
 <!doctype html>
 <html class="no-js" lang="en">
@@ -34,14 +38,14 @@
     <body data-mobile-nav-style="classic">
         <!-- start header -->
         <header>
-            <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-client3 header-dark fixed-top header-reverse-scroll">
+            <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-client4 header-dark fixed-top header-reverse-scroll">
                 <div class="container-fluid nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.php">
-                            <img src="template/images/logos/Recurso 4.svg" data-at2x="template/images/logos/Recurso 4.svg" alt="" class="default-logo">
-                            <img src="template/images/logos/Recurso 1.svg" data-at2x="template/images/logos/Recurso 1.svg" alt="" class="alt-logo">
-                            <img src="template/images/logos/Recurso 1.svg" data-at2x="template/images/logos/Recurso 1.svg" alt="" class="mobile-logo">
+                            <img src="template/images/logos/Recurso 5.svg" data-at2x="template/images/logos/Recurso 5.svg" alt="" class="default-logo">
+                            <img src="template/images/logos/Recurso 5.svg" data-at2x="template/images/logos/Recurso 5.svg" alt="" class="alt-logo">
+                            <img src="template/images/logos/Recurso 5.svg" data-at2x="template/images/logos/Recurso 5.svg" alt="" class="mobile-logo">
                         </a>
                     </div>
                     <div class="col-auto col-lg-8 menu-order px-lg-0">
@@ -152,13 +156,13 @@
             
         </div>
         <!-- start footer -->
-        <footer class="footer-consulting footer-dark bg-client3">
+        <footer class="footer-consulting footer-dark bg-client4">
             <div class="footer-top padding-six-tb lg-padding-eight-tb md-padding-50px-tb">
                 <div class="container">
                     <div class="row">
                         <!-- start footer column -->
                         <div class="col-12 col-lg-5 col-sm-6 order-sm-1 order-lg-0 last-paragraph-no-margin md-margin-40px-bottom xs-margin-25px-bottom d-grid justify-items-center">
-                            <img src="template/images/logos/Recurso 3.svg" alt="logo" width="150px"  height="150px" class="margin-30px-bottom"> 
+                            <img src="template/images/logos/Recurso 5.svg" alt="logo" width="150px"  height="150px" class="margin-30px-bottom"> 
                             <p class="alt-font text-white">
                                 Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad.
                             </p>

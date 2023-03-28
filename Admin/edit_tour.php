@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(!isset($_SESSION['user_id'])){
+    header('location:login.php');
+    } else {
+    }
 include('config.php');
 
 #Salir si alguno de los datos no está presente

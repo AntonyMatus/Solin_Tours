@@ -6113,7 +6113,7 @@
     .time-table .panel .panel-body { width: 100%; }
 
     /* tab */
-    .nav-tabs > li { padding: 0; display: block; margin-bottom: 10px; width: 100%; }
+    .nav-tabs > li { padding: 0; display: block; margin-bottom: 10px; width: 100%; padding-left: 2rem;}
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus, .nav-tabs > li > a:focus, .nav-tabs > li > a:hover { border: none; }
     .nav-tabs > li.nav-item { padding: 0; }
 
@@ -7988,6 +7988,14 @@
 
     /* countdown style 02 */
     .countdown.countdown-style-02 .countdown-box { margin-bottom: 15px; padding: 0 25px; }
+    .blog-post-image img, .portfolio-image img{width: 100%; height: auto;}
+    .overflow-auto {
+        float: none;
+        display: flex;
+        margin-bottom: 2rem;
+    }
+    .swiper-container2{width: 100%; height: 420px;}
+    .h-responsive { height:auto !important; }
 }
 @media (max-height: 460px) {
     /* header search */

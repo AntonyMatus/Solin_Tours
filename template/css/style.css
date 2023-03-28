@@ -367,6 +367,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-client{background-color: #BD0811;}
 .bg-client2{background-color: #FDD321;}
 .bg-client3{background-color: #ED510D;}
+.bg-client4{background-color: #7fcacc;}
 .bg-smoky-black { background-color:#101010; }
 .bg-dark-gray { background-color:#757575; }
 .bg-extra-dark-gray { background-color:#232323; }
@@ -463,7 +464,7 @@ h6 { font-size:1.80rem; line-height:2.5rem; }
 .bg-transparent-iris-blue { background-color: rgba(0, 184, 184, .9); }
 
 /* background gradient color */
-.bg-gradient-magenta-orange { background-image: linear-gradient(to right top, #e42464, #ed3c5f, #f44f5c, #fa6259, #ff7357); }
+.bg-gradient-magenta-orange { background-color: #7fcacc; }
 .bg-gradient-magenta-orange-2 { background-image: linear-gradient(to right top, #ec606c, #ee6362, #ee6757, #ed6c4d, #eb7242); }
 .bg-gradient-purple-magenta { background-image: linear-gradient(to right top, #502970, #7f2977, #ac2775, #d42d6b, #f34259); }
 .bg-gradient-light-purple-light-orange { background-image: linear-gradient(to right top, #b783ff, #e37be0, #fa7cc1, #ff85a6, #ff9393); }
@@ -2233,6 +2234,8 @@ input.btn:focus { border-width: 2px; }
 ====================================== */
 
 .swiper-container { width: 100%; height: 450px; }
+.swiper-container2 { width: 100%; height: 450px; }
+
 .h-1px { height: 1px; }
 .h-2px { height: 2px; }
 .h-3px { height: 3px; }
@@ -2293,9 +2296,13 @@ input.btn:focus { border-width: 2px; }
 .h-830px { height: 830px; }
 .h-850px { height: 850px; }
 
+.overflow-auto {
+    overflow: auto !important;
+}
 .h-50 { height: 50%; }
 .h-100 { height: 100% !important; }
 .h-auto { height:auto !important; }
+.h-responsive{height: 500px;}
 .max-h-100 { max-height: 100%; }
 .max-h-inherit { max-height: inherit !important; }
 .full-screen, .mobileoff-fullscreen-top-space, .fullscreenabanner { height: 980px; }
@@ -2744,7 +2751,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 
 /* header background color on scroll */
 .sticky.header-appear .header-light, .sticky .header-light.header-always-fixed-scroll { background-color: #fff !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important }
-.sticky.header-appear .header-dark, .sticky .header-dark.header-always-fixed-scroll { background-color: #ED510D !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
+.sticky.header-appear .header-dark, .sticky .header-dark.header-always-fixed-scroll { background-color: #7fcacc !important; box-shadow: 0 0 35px rgba(0,0,0,0.1); border-bottom: none !important; transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s; }
 .sticky .header-light, .sticky .header-light.header-always-fixed-scroll { box-shadow: 0 0 35px rgba(0,0,0,0.1); }
 
 .sticky.header-appear .header-light.transparent, .sticky .header-light.transparent.header-always-fixed-scroll { background-color: rgba(255,255,255,0.6) !important; }
@@ -2848,7 +2855,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line { background: #fff; }
 .sticky .navbar.navbar-dark.header-light .navbar-nav > .nav-item.dropdown.simple-dropdown:hover > a { color: rgba(0,0,0,0.6) !important; }
 
 /* header logo */
-header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 36px; }
+header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img { max-height: 70px; }
 header .navbar .navbar-brand .default-logo, header.sticky .navbar-brand .alt-logo, header .sidebar-nav-menu .navbar-brand .default-logo { visibility: visible; opacity: 1; width: auto; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;  }
 header.sticky .navbar .navbar-brand .default-logo, header .navbar-brand .alt-logo, header .navbar .navbar-brand .mobile-logo, header .sidebar-nav-menu .navbar-brand .mobile-logo  { visibility: hidden; opacity: 0; width: 0; transition-duration:0.5s; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -ms-transition-duration: 0.5s; -o-transition-duration: 0.5s;  }
 
@@ -4942,3 +4949,5 @@ input[type="checkbox"].error { box-shadow: 0px 0px 0px 1px rgb(255 0 0), 1px 1px
 .mt-5rem {
     margin-top: 5rem;
 }
+
+#shadow-host-companion{padding: 0;}

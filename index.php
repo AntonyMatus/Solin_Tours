@@ -34,18 +34,32 @@
         <link rel="stylesheet" type="text/css" href="template/css/theme-vendors.min.css">
         <link rel="stylesheet" type="text/css" href="template/css/style.css" />
         <link rel="stylesheet" type="text/css" href="template/css/responsive.css" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://solin-tours.com/">
+        <meta property="og:title" content="Solin Tours Cozumel">
+        <meta property="og:description" content="Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad">
+        <meta property="og:image" content="https://solin-tours.com/template/images/home.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://solin-tours.com/">
+        <meta property="twitter:title" content="Solin Tours Cozumel">
+        <meta property="twitter:description" content="Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad">
+        <meta property="twitter:image" content="https://solin-tours.com/template/images/home.jpg">
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
         <header>
-            <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-client3 header-dark fixed-top header-reverse-scroll">
+            <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-client4 header-dark fixed-top header-reverse-scroll">
                 <div class="container-fluid nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.php">
-                            <img src="template/images/logos/Recurso 4.svg" data-at2x="template/images/logos/Recurso 4.svg" alt="" class="default-logo">
-                            <img src="template/images/logos/Recurso 1.svg" data-at2x="template/images/logos/Recurso 1.svg" alt="" class="alt-logo">
-                            <img src="template/images/logos/Recurso 1.svg" data-at2x="template/images/Recurso 1.svg" alt="" class="mobile-logo">
+                            <img src="template/images/logos/Recurso 5.svg" data-at2x="template/images/logos/Recurso 5.svg" alt="" class="default-logo">
+                            <img src="template/images/logos/Recurso 5.svg" data-at2x="template/images/logos/Recurso 5.svg" alt="" class="alt-logo">
+                            <img src="template/images/logos/Recurso 5.svg" data-at2x="template/images/logos/Recurso 5.svg" alt="" class="mobile-logo">
                         </a>
                     </div>
                     <div class="col-auto col-lg-8 menu-order px-lg-0">
@@ -208,7 +222,7 @@
                     <div class="row align-items-center">
                         <div class="col-12 col-lg-6 position-relative z-index-1 md-margin-50px-bottom sm-margin-35px-bottom wow animate__fadeIn" data-wow-delay="0.1s">
                             <div class="tilt-box" data-tilt-options='{ "maxTilt": 20, "perspective": 1000, "easing": "cubic-bezier(.03,.98,.52,.99)", "scale": 1, "speed": 500, "transition": true, "reset": true, "glare": false, "maxGlare": 1 }'>
-                                <img src="template/images/home.jpg" alt="" />
+                                <img src="template/images/intro2.jpg" alt="" />
                                 <!-- <a href="https://www.youtube.com/watch?v=g0f_BRYJLJE" class="popup-youtube absolute-middle-center video-icon-box video-icon-large">
                                     <span>
                                         <span class="video-icon bg-white box-shadow-extra-large">
@@ -285,9 +299,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="single_service.php?id=11" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=9" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Clear boat Cozumel</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=11" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=9" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -301,11 +315,11 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="single_service.php?id=10" class="rounded-icon bg-neon-orange interactive-banners-icon">
+                                            <a href="single_service.php?id=8" class="rounded-icon bg-neon-orange interactive-banners-icon">
                                                 <i class="feather icon-feather-arrow-right text-white"></i>
                                             </a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Chichen Itza Delux</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=10" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=8" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -319,9 +333,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="single_service.php?id=7" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=5" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Tulum casa tortuga</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=7" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=5" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -336,9 +350,9 @@
                                 <div class="interactive-banners-hover bg-gradient-extra-dark-gray-transparent">
                                     <div class="d-table h-100 w-100">
                                         <div class="d-table-cell align-bottom padding-3-half-rem-tb xs-padding-6-half-rem-tb">
-                                            <a href="single_service.php?id=6" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
+                                            <a href="single_service.php?id=4" class="rounded-icon bg-neon-orange interactive-banners-icon"><i class="feather icon-feather-arrow-right text-white"></i></a>
                                             <div class="font-weight-500 line-height-normal alt-font text-white text-large interactive-banners-title">Buceo para principiantes</div>
-                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=6" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
+                                            <div class="font-weight-500 line-height-normal alt-font text-uppercase interactive-banners-sub-title"><a href="single_service.php?id=4" class="text-white text-medium text-decoration-line-bottom">Explorar Tour</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -366,14 +380,17 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <!-- start filter navigation -->
-                            <ul class="portfolio-filter grid-filter nav nav-tabs justify-content-center border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
-                                <li class="nav active"><a data-filter="*" href="#">Todos</a></li>
-                                <?php foreach ($categories as $category) : ?>
-                                    <li class="nav"><a data-filter=".<?php echo $category->slug ?>" href="#"> <?php echo $category->name ?> </a></li>
-                                <?php endforeach ?>
-                            </ul>
+                            <div class="overflow-auto">
+                                <!-- start filter navigation -->
+                                <ul class="portfolio-filter grid-filter nav nav-tabs justify-content-center flex-nowrap border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
+                                    <li class="nav active text-nowrap"><a data-filter="*" href="#">Todos</a></li>
+                                    <?php foreach ($categories as $category) : ?>
+                                        <li class="nav"><a class="text-nowrap" data-filter=".<?php echo $category->slug ?>" href="#"> <?php echo $category->name ?> </a></li>
+                                    <?php endforeach ?>
+                                </ul>
                             <!-- end filter navigation -->
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -425,7 +442,7 @@
                                 <div class="swiper-wrapper">
                                     <!-- start info banner slider item -->
                                     <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover h-664-66px">
-                                        <a href="single_service.php?id=9"><img class="w-100" src="template/images/paquetes/beachclub.jpg" alt="" /></a>
+                                        <a href="single_service.php?id=2"><img class="w-100" src="template/images/paquetes/beachclub.jpg" alt="" /></a>
                                         <div class="position-relative bg-white padding-3-rem-all md-padding-4-rem-lr body-car">
                                             <!-- <div class="bg-client3 text-small font-weight-500 alt-font text-white text-uppercase position-absolute top-minus-15px right-0px padding-5px-tb padding-20px-lr"></div> -->
                                             <span class="text-medium text-uppercase d-block margin-5px-bottom">Catamarán + beach club Playa Mía</span>
@@ -435,7 +452,7 @@
                                     <!-- end info banner slider item -->
                                     <!-- start info banner slider item -->
                                     <div class="swiper-slide box-shadow-small box-shadow-extra-large-hover h-664-66px">
-                                        <a href="single_service.php?id=8"><img class="w-100" src="template/images/paquetes/catamaranfurybeach.jpg" alt="" /></a>
+                                        <a href="single_service.php?id=6"><img class="w-100" src="template/images/paquetes/catamaranfurybeach.jpg" alt="" /></a>
                                         <div class="position-relative bg-white padding-3-rem-all md-padding-4-rem-lr body-car">
                                             <!-- <div class="bg-client3 text-small font-weight-500 alt-font text-white text-uppercase position-absolute top-minus-15px right-0px padding-5px-tb padding-20px-lr"></div> -->
                                             <span class="text-medium text-uppercase d-block margin-5px-bottom">Catamarán + Fury beach</span>
@@ -476,7 +493,7 @@
                     <div class="row margin-6-rem-bottom xs-margin-2-half-rem-bottom">
                         <div class="col-12 p-0 wow animate__fadeIn" data-wow-delay="0.4s">
                             <div class="swiper-simple-arrow-style-1">
-                                <div class="swiper-container padding-15px-all black-move" data-slider-options='{ "loop": true, "slidesPerView": 1, "spaceBetween": 30, "observer": true, "observeParents": true, "navigation": { "nextEl": ".swiper-button-next-nav-4", "prevEl": ".swiper-button-previous-nav-4" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "autoplay": false,  "breakpoints": { "992": { "slidesPerView": 2 }, "768": { "slidesPerView": 2 } }, "effect": "slide" }'>
+                                <div class="swiper-container h-responsive padding-15px-all black-move" data-slider-options='{ "loop": true, "slidesPerView": 1, "spaceBetween": 30, "observer": true, "observeParents": true, "navigation": { "nextEl": ".swiper-button-next-nav-4", "prevEl": ".swiper-button-previous-nav-4" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "autoplay": { "delay": 4500, "disableOnInteraction": false },  "breakpoints": { "992": { "slidesPerView": 2 }, "768": { "slidesPerView": 2 } }, "effect": "slide" }'>
                                     <div class="swiper-wrapper">
                                         <!-- start testimonial item -->
                                         <div class="swiper-slide text-center">
@@ -603,13 +620,13 @@
             
         </div>
         <!-- start footer -->
-        <footer class="footer-consulting footer-dark bg-client3">
+        <footer class="footer-consulting footer-dark bg-client4">
             <div class="footer-top padding-six-tb lg-padding-eight-tb md-padding-50px-tb">
                 <div class="container">
                     <div class="row">
                         <!-- start footer column -->
                         <div class="col-12 col-lg-5 col-sm-6 order-sm-1 order-lg-0 last-paragraph-no-margin md-margin-40px-bottom xs-margin-25px-bottom d-grid justify-items-center">
-                            <img src="template/images/logos/Recurso 3.svg" alt="logo" width="150px"  height="150px" class="margin-30px-bottom"> 
+                            <img src="template/images/logos/Recurso 5.svg" alt="logo" width="150px"  height="150px" class="margin-30px-bottom"> 
                             <p class="alt-font text-white">
                                 Somos una empresa mexicana enfocada y dedicada al área de actividades turística en la Isla de Cozumel y sus alrededores. Somos nativos locales en esta isla los cuales nos permite tener más facilidad de atención directa con los clientes, procurando siempre su bienestar y seguridad.
                             </p>
